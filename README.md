@@ -1,6 +1,9 @@
 ![UnitedCrowd](https://staging.unitedcrowd.com/github/uc-logo.jpg)
 # Voting Contract
 The voting contract is an ethereum ERC20 based smart contract designed to costumize votings and polls. The contract can be included in any sale-based smart contract in order to give tokenholder the right to vote. An external DAPP can be added to setup voting parameter.
+- Contract requires `UniversalToken.sol`
+- Contract based on `solidity ^0.4.25`
+
 ## Function list
 ### Basic functions
 Function | Description
