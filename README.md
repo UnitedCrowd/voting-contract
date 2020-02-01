@@ -19,7 +19,6 @@ getIfUserHasVoted | Checks if a user has voted for a specific poll.
 modifier validPoll | Modifier that checks for a valid poll ID.
 
 ### Vote Operations
-_NOTE: weight is denominated in wei_
 Function | Description
 ---------|------------
 castVote | Casts a vote for a given poll.
