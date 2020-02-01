@@ -19,13 +19,13 @@ getIfUserHasVoted | Checks if a user has voted for a specific poll.
 modifier validPoll | Modifier that checks for a valid poll ID.
 
 ### Vote Operations
-*NOTE: _weight is denominated in wei*
+* NOTE: _weight is denominated in wei *
 Function | Description
 ---------|------------
 castVote | Casts a vote for a given poll.
 
 ### Token Operations
-*NOTE: User must approve transfer of tokens. _weight is denominated in wei*
+* NOTE: User must approve transfer of tokens. _weight is denominated in wei *
 Function | Description
 ---------|------------
 stakeVotingTokens | Stakes tokens for a given voter in return for voting credits.
