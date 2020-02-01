@@ -17,4 +17,19 @@ getLockedAmount | Gets the amount of Voting Tokens that are locked for a given v
 getTokenStake | Gets the amount of Voting Credits for a given voter.
 getIfUserHasVoted | Checks if a user has voted for a specific poll.
 modifier validPoll | Modifier that checks for a valid poll ID.
-### Vote Operatios
+
+### Vote Operations
+*NOTE: _weight is denominated in wei*
+Function | Description
+---------|------------
+castVote | Casts a vote for a given poll.
+
+### Token Operations
+*NOTE: User must approve transfer of tokens. _weight is denominated in wei*
+Function | Description
+---------|------------
+stakeVotingTokens | Stakes tokens for a given voter in return for voting credits.
+withdrawTokens | Allows a voter to withdraw voting tokens after a poll has ended.
+updateTokenBank | Helper function that updates active token balances after a poll has ended.
+
+
