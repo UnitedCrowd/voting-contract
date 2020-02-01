@@ -32,7 +32,7 @@ contract Voting is CustomOwnable
 {
 	using SafeMath for uint256;
 
-	/* EVENTS */
+	/* EVENTS  */
 	event voteCasted(address voter, uint256 pollID, bool vote, uint256 weight);
 	event pollCreated(address creator, uint256 pollID, string description, uint256 votingLength);
 	event pollStatusUpdate(uint256 pollID, PollStatus status);
