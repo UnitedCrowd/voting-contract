@@ -25,7 +25,7 @@ Function | Description
 castVote | Casts a vote for a given poll.
 
 ### Token Operations
-_NOTE: User must approve transfer of tokens. _weight is denominated in wei_
+_NOTE: User must approve transfer of tokens. weight is denominated in wei_
 Function | Description
 ---------|------------
 stakeVotingTokens | Stakes tokens for a given voter in return for voting credits.
