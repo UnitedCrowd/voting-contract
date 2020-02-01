@@ -1,3 +1,3 @@
 # voting contract
-![UnitedCrowd](/img/UC-Logo-Schrift-Grau-164x241.svg)
+![UnitedCrowd](https://staging.unitedcrowd.com/github/uc-logo.jpg)
 ## uitedcrowd
